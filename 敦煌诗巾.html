@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://diy2.sub.wkfans.com/main/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>敦煌诗巾</title>
+    
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,user-scalable=no">
+    <script src="./敦煌诗巾_files/jweixin-1.3.2.js.下载"></script>
+    <script src="./敦煌诗巾_files/mmd-plugin.min.1.0.2.js.下载" charset="utf-8"></script>
+    <script src="./敦煌诗巾_files/mmd.videoplayer.min.1.0.1.js.下载" charset="utf-8"></script>
+    <script src="./敦煌诗巾_files/annieCore.min8.js.下载"></script>
+    <script src="./敦煌诗巾_files/jquery.min.js.下载"></script>
+    <!--如果有用到annieUI组件类,则需要开启下面的js-->
+    <script src="./敦煌诗巾_files/annieUI.min.js.下载"></script>
+    <script>
+        // var serverUrl="https://test.annie2x.com/hero/huaBan/system";
+        // var serverUrl="//5c1a3338-0.gz.1258263871.clb.myqcloud.com";
+        var serverUrl="https://diy.sub.wkfans.com";
+        // var userOpenid="asssasssasssasssasssasssasss";
+    </script>
+    <script src="./敦煌诗巾_files/f2xMain.min.js.下载"></script>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            border: 0px;
+            overflow: hidden;
+            position: absolute;
+            background-color: #000000;
+        }
+    </style>
+    <style>
+        /* 假如添加了video标签,可能会出现video标签默认置顶的情况,解决这个bug可以通过样式设置来规避; */
+        .compatibleStyle {
+            backface-visibility:hidden;
+            -webkit-backface-visibility:hidden; /* Chrome 和 Safari */
+            -moz-backface-visibility:hidden;  /* Firefox */
+            -ms-backface-visibility:hidden;  /* Internet Explorer */
+            -webkit-perspective: 0;
+            -webkit-transform: translate3d(0,0,0);
+            visibility:visible;
+        }
+    </style>
+<script id="picviewer-page-script">(function(messageID){
+                var frameID=Math.random();
+                var frames={
+                    top:window.top,
+                };
+
+                window.addEventListener('message',function(e){
+                    var data=e.data;
+                    if( !data || !data.messageID || data.messageID != messageID )return;//通信ID认证
+                    var source=e.source;
+                    if(source===window){//来自contentscript,发送出去,或者干嘛。
+                        if(data.to){
+                            data.from=frameID;
+                            frames[data.to].postMessage(data,'*');
+                        }else{
+                            switch(data.command){
+                                case 'getIframeObject':{
+                                    var frameWindow=frames[data.windowId];
+                                    var iframes=document.getElementsByTagName('iframe');
+                                    var iframe;
+                                    var targetIframe;
+                                    for(var i=iframes.length-1 ; i>=0 ; i--){
+                                        iframe=iframes[i];
+                                        if(iframe.contentWindow===frameWindow){
+                                            targetIframe=iframe;
+                                            break;
+                                        };
+                                    };
+                                    var cusEvent=document.createEvent('CustomEvent');
+                                    cusEvent.initCustomEvent('pv-getIframeObject',false,false,targetIframe);
+                                    document.dispatchEvent(cusEvent);
+                                }break;
+                            };
+                        };
+
+                    }else{//来自别的窗口的，contentscript可以直接接收，这里保存下来自的窗口的引用
+                        frames[data.from]=source;
+                    };
+                },true)
+            })("pv-0.5106795670312598")</script><style type="text/css"> .IIV::-webkit-media-controls-play-button,   .IIV::-webkit-media-controls-start-playback-button {  opacity: 0;    pointer-events: none;    width: 5px;}</style></head><remove-web-limits-iqxin id="rwl-iqxin" class="rwl-exempt" style="position: fixed; top: 18px; left: 0px;"><button type="button" id="rwl-setbtn"> set </button> <lalala style="cursor:move;">限制解除</lalala> <input type="checkbox" name="" id="black_node"><style type="text/css">#rwl-iqxin{position:fixed;transform:translate(-90px,0);width:85px;height:25px;font-size:12px;font-weight: 500;font-family:Verdana, Arial, '宋体';color:#fff;background:#333;z-index:2147483647;margin: 0;opacity:0.05;transition:0.3s;overflow:hidden;user-select:none;text-align:center;white-space:nowrap;line-height:25px;padding:0 16px;border:1px solid #ccc;border-width:1px 1px 1px 0;border-bottom-right-radius:5px;box-sizing: content-box;}#rwl-iqxin input{margin: 0;padding: 0;vertical-align:middle;-webkit-appearance:checkbox;-moz-appearance:checkbox;position: static;clip: auto;opacity: 1;cursor: pointer;}#rwl-iqxin.rwl-active-iqxin{left: 0px;transform:translate(0,0);opacity: 0.9;height: 32px;line-height: 32px}#rwl-iqxin label{margin:0;padding:0;font-weight:500;}#rwl-iqxin button{margin: 0;padding: 0 2px;border: none;border-radius: 2px;cursor: pointer;}#rwl-setMenu{text-align:left;font-size:14px;z-index:999999;border: 1px solid cornflowerblue;}#rwl-setMenu p{margin:5px auto;} </style></remove-web-limits-iqxin>
+<body style="background-color: rgb(238, 233, 227);">
+<!--如果不想canvas全屏而是作为html中的一个标签,请设置div的style.width和style.height为实际值如<div id="annieEngine" style="width:320px;height:576px;line-height:0;font-size:0"></div>-->
+<div id="annieEngine" style="line-height: 0; font-size: 0px; display: none;"><canvas id="_a2x_canvas" width="1536" height="548" style="width: 768px; height: 274px;"></canvas></div>
+<!--<img src="resource/skip.png" style="display: none;position: absolute;z-index: 10000;right: 20px;top:30px;">-->
+<div class="btnSip" itemid="0" style="position: absolute; z-index: 10000; right: 24px; top: 40px;" onclick="clickFn(this)">
+    <p style="color: #DDDDDD;font-size: 14px">跳过&gt;&gt;</p>
+</div>
+<div id="videoBox" view-mode="v" view-rotation="auto" view-scale="height" view-width="750" view-height="1080" style="background: rgb(0, 0, 0); position: absolute; transform-origin: 0% 0%; width: 750px; height: 1080px; overflow: hidden; display: block; transform: matrix3d(0, -0.7111, 0, 0, 0.7111, 0, 0, 0, 0, 0, 1, 0, 0, 404, 0, 1);" view-align="">
+    <div style="position: absolute;">
+        <video id="video" x-webkit-airplay="true" airplay="allow" webkit-playsinline="true" playsinline="true" style="display: block;" preload="auto" src="https://diy2.sub.wkfans.com/main/resource/dunHuang.mp4"></video>
+    </div>
+</div>
+
+</body></html>
