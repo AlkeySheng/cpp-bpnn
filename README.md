@@ -1,3 +1,3 @@
-# test
+# C++实现简易bp神经网络
 
-测试2020年的Hacktoberfest
+C++实现简易bp神经网络
